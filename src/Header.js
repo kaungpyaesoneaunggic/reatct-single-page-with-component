@@ -7,6 +7,7 @@ export default function () {
       margin:'15px 0px  0px 0px'
      }}>
         <img src={companyLogo} height={'100px'}></img>
+        Global Innovation Consulting
         <div style={{width:'70%', marginRight:'10px'}} className='d-flex justify-content-between'>
         <SmallText
         text='News'

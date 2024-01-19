@@ -2,6 +2,9 @@ import React from 'react'
 
 export default function SmallText({text}) {
   return (
-      <p className='' style={{display:'inline-block',border:'3px solid', borderRadius:'10px',margin:'0', padding:'10px 20px 10px 20px'}}>{text}</p>
-  )
+
+<button className='border border-primary' style={{ display: 'inline-block',borderRadius:'5px', padding:'2% 7% 2% 7%', backgroundColor:'#0275d8'}}>
+    {text}
+  </button>    )
 }
+

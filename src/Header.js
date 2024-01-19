@@ -1,19 +1,21 @@
 import React from 'react'
-import komi from './images/komi.jpg'
+import companyLogo from './images/company-logo.png'
 import SmallText from './components/SmallText'
 export default function () {
   return (
-    <div className='form-control border-success d-flex justify-content-around align-items-center' style={{ width:'95%', margin:'auto'}}>
-        <img src={komi} height={'70px'} style={{borderRadius:'50%'}}></img>
-        <div className='d-flex justify-content-between w-50 p-3'>
+    <div className='border border-primary border-2 d-flex justify-content-around align-items-center' style={{ 
+      margin:'15px 0px  0px 0px'
+     }}>
+        <img src={companyLogo} height={'100px'}></img>
+        <div style={{width:'70%', marginRight:'10px'}} className='d-flex justify-content-between'>
         <SmallText
-        text='testing'
+        text='News'
         />
         <SmallText
-        text='Meh'
+        text='Content'
         />
         <SmallText
-        text='Okkay'
+        text='About'
         />
         </div>
         

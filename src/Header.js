@@ -8,15 +8,15 @@ export default function () {
      }}>
         <img src={companyLogo} height={'100px'}></img>
         Global Innovation Consulting
-        <div style={{width:'70%', marginRight:'10px'}} className='d-flex justify-content-between'>
+        <div style={{width:'50%', marginRight:'10px'}} className='d-flex justify-content-between'>
         <SmallText
-        text='News'
-        />
-        <SmallText
-        text='Content'
+        text='Home'
         />
         <SmallText
         text='About'
+        />
+        <SmallText
+        text='Services'
         />
         </div>
         

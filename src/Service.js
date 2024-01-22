@@ -28,7 +28,7 @@ export default function Service() {
         <div className='col-md-4'>
           <ServiceColumn
           img={programmer}
-          text='  Our code has a great sense of humor! Coding with a side of laughter. We turn bugs into features, and frowns into smiles.Software so good, it’ll make you giggle.Laugh your bugs away with our software.Coding made fun, one line at a time.
+          text='  Our code has a great sense of humor! Coding with a side of laughter. We turn bugs into features, and frowns into smiles.Software so good, it’ll make you giggle.Laugh your bugs away with our software.Coding made fun, one line at time.
 .'        btnName={'Get An App Now'}
           />
         </div>

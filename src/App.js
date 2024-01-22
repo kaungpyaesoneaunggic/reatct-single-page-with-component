@@ -14,7 +14,7 @@ function App() {
     AOS.init( {duration:2000})
   },[])
   return (
-        <div  style={{ width:'100%' ,background: '#355C7D',overflow:'hidden', }}>
+        <div  style={{ width:'100%' ,background: '#3e3e42',overflow:'hidden', }}>
           <div style={{width:'95%', margin:'auto' }}>
             <Header/>
             <div data-aos="fade-up">
